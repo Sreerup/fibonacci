@@ -1,13 +1,25 @@
-var c,temp;
-var a=0;
+
+function fibo () {
+var c;
+var a=-1;
 var b=1;
-console.log(a);
-console.log(b);
-c=a+b;
-while(c<31)
-{
-console.log(c);
+var arr = [];
+var count = 0;
+
+do{
+c = a + b;
 a=b;
 b=c;
-c=a+b;
+arr[count] = c;
+count ++;
+}while(c<31);
+
+return arr;
 }
+
+var output = fibo();
+console.log(output);
+
+module.exports = fibo();
+
+
