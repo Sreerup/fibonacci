@@ -17,9 +17,7 @@ count ++;
 return arr;
 }
 
-var output = fibo();
-console.log(output);
 
-module.exports = fibo();
+module.exports = fibo;
 
 
