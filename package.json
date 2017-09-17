@@ -1,5 +1,5 @@
 {
-  "name": "mynode",
+  "name": "fibonacci",
   "version": "1.0.0",
   "description": "",
   "main": "fibonacci.js",
